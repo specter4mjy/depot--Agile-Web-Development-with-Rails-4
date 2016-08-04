@@ -41,11 +41,11 @@ GEM
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
-    jquery-rails (3.1.4)
+    jquery-rails (3.1.0)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
-    jquery-ui-rails (5.0.5)
-      railties (>= 3.2.16)
+    jquery-ui-rails (4.1.1)
+      railties (>= 3.1.0)
     json (1.8.3)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -110,8 +110,8 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
-  jquery-rails
-  jquery-ui-rails
+  jquery-rails (= 3.1.0)
+  jquery-ui-rails (= 4.1.1)
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
